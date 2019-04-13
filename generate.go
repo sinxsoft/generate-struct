@@ -28,7 +28,7 @@ const (
 	DB_NAME = "qqxinli"
 )
 
-func main() {
+func main2() {
 	arg_num := len(os.Args)
 	if arg_num < 2 {
 		panic("No mysql table choose")
